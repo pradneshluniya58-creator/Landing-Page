@@ -57,7 +57,7 @@ body {
 .header-content button{
     background-color: #3882F6;
     border: none;
-    border-radius: 10%;
+    border-radius: 10px;
     width: 100px;
     height: 30px;
     align-items: center;
@@ -132,6 +132,55 @@ body {
     font-size: 20px;
     font-weight: 800;
     align-self: flex-end;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.sign-up .call-to-action{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 100px;
+    gap: 180px;
+    padding: 40px 110px;
+}
+
+.sign-up .call-to-action .call-to-action-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up .call-to-action .call-to-action-content .call-to-action-content-heading{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.sign-up .call-to-action .call-to-action-content .call-to-action-content-info{
+    font-size: 18px;
+    color: #B0B3B8;
+}
+
+.sign-up .call-to-action .call-to-action-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .call-to-action .call-to-action-button button{
+    border: white solid 2px;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .footer {
